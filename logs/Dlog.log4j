@@ -1,0 +1,2107 @@
+2020-06-22 16:35:22  [ main:0 ] - [ INFO ]  Creating Service {http://Impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-06-22 16:35:23  [ main:1169 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-06-22 16:35:23  [ main:1197 ] - [ INFO ]  Logging initialized @2800ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-22 16:35:23  [ main:1347 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-06-22 16:35:25  [ main:2644 ] - [ INFO ]  Started ServerConnector@2ab4bc72{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-06-22 16:35:25  [ main:2647 ] - [ INFO ]  Started @4253ms
+2020-06-22 16:35:25  [ main:2678 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@24959ca4{/ws,null,AVAILABLE}
+2020-06-22 16:37:07  [ main:0 ] - [ INFO ]  Creating Service {http://Impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-06-22 16:37:08  [ main:991 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-06-22 16:37:08  [ main:1026 ] - [ INFO ]  Logging initialized @2455ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-22 16:37:09  [ main:1161 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-06-22 16:37:10  [ main:2406 ] - [ INFO ]  Started ServerConnector@2ab4bc72{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-06-22 16:37:10  [ main:2406 ] - [ INFO ]  Started @3841ms
+2020-06-22 16:37:10  [ main:2431 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@5c86dbc5{/ws,null,AVAILABLE}
+2020-06-22 16:37:25  [ main:1 ] - [ INFO ]  Creating Service {http://service.raysvalve.com/}HelloServiceService from class com.raysvalve.service.HelloService
+2020-06-23 08:53:42  [ main:0 ] - [ INFO ]  Creating Service {http://Impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-06-23 08:53:44  [ main:1502 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-06-23 08:53:44  [ main:1564 ] - [ INFO ]  Logging initialized @4328ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-23 08:53:44  [ main:1775 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-06-23 08:53:45  [ main:2475 ] - [ INFO ]  Started ServerConnector@3cce5371{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-06-23 08:53:45  [ main:2476 ] - [ INFO ]  Started @5246ms
+2020-06-23 08:53:45  [ main:2505 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@2438dcd{/ws,null,AVAILABLE}
+2020-06-23 08:56:10  [ main:0 ] - [ INFO ]  Creating Service {http://service.raysvalve.com/}HelloServiceService from class com.raysvalve.service.HelloService
+2020-06-23 08:56:13  [ qtp1898325501-16:150158 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:13598/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[199], content-type=[text/xml; charset=UTF-8], Host=[localhost:13598], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://service.raysvalve.com/"><arg0>Jet：</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2020-06-23 08:56:13  [ qtp1898325501-16:150438 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://service.raysvalve.com/"><return>Jet：欧菲石油设备有限公司</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------
+2020-06-23 10:01:27  [ qtp1898325501-14:4064451 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:13598/ws/hello
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:13598], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-06-23 10:01:27  [ qtp1898325501-14:4064454 ] - [ ERROR ]  Invocation without a binding operation.
+2020-06-23 10:01:27  [ qtp1898325501-14:4064458 ] - [ WARN ]  Interceptor for {http://Impl.service.raysvalve.com/}HelloServiceImplService has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: No binding operation info while invoking unknown method with params unknown.
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:58)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$2.run(ServiceInvokerInterceptor.java:126)
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:131)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-23 10:01:37  [ qtp1898325501-16:4074314 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:13598/ws/hello?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:13598], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-06-29 08:52:18  [ main:0 ] - [ INFO ]  Creating Service {http://Impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-06-29 08:52:19  [ main:1179 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-06-29 08:52:20  [ main:1214 ] - [ INFO ]  Logging initialized @3310ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-06-29 08:52:20  [ main:1454 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-06-29 08:52:21  [ main:2695 ] - [ INFO ]  Started ServerConnector@3ad83a66{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-06-29 08:52:21  [ main:2695 ] - [ INFO ]  Started @4797ms
+2020-06-29 08:52:21  [ main:2725 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@41f69e84{/ws,null,AVAILABLE}
+2020-06-29 08:52:32  [ main:0 ] - [ INFO ]  Creating Service {http://service.raysvalve.com/}HelloServiceService from class com.raysvalve.service.HelloService
+2020-06-29 08:52:35  [ qtp856055143-18:16525 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:13598/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[199], content-type=[text/xml; charset=UTF-8], Host=[localhost:13598], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://service.raysvalve.com/"><arg0>Jet：</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2020-06-29 08:52:35  [ qtp856055143-18:16862 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://service.raysvalve.com/"><return>Jet：欧菲石油设备有限公司</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------
+2020-07-01 12:21:10  [ main:0 ] - [ INFO ]  Creating Service {http://impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-07-01 12:21:11  [ main:1428 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-07-01 12:21:11  [ main:1466 ] - [ INFO ]  Logging initialized @3048ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-01 12:21:11  [ main:1650 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-01 12:21:13  [ main:2775 ] - [ INFO ]  Started ServerConnector@3cce5371{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-07-01 12:21:13  [ main:2776 ] - [ INFO ]  Started @4364ms
+2020-07-01 12:21:13  [ main:2814 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@2438dcd{/ws,null,AVAILABLE}
+2020-07-01 15:25:44  [ main:0 ] - [ INFO ]  Creating Service {http://impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-07-01 15:25:45  [ main:945 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-07-01 15:25:45  [ main:975 ] - [ INFO ]  Logging initialized @2278ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-01 15:25:45  [ main:1235 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-01 15:25:46  [ main:2132 ] - [ INFO ]  Started ServerConnector@3cce5371{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-07-01 15:25:46  [ main:2133 ] - [ INFO ]  Started @3442ms
+2020-07-01 15:25:46  [ main:2164 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@7975d1d8{/ws,null,AVAILABLE}
+2020-07-01 15:26:07  [ main:0 ] - [ INFO ]  Creating Service {http://service.raysvalve.com/}HelloServiceService from class com.raysvalve.service.HelloService
+2020-07-01 15:26:10  [ qtp1898325501-19:25462 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:13598/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[199], content-type=[text/xml; charset=UTF-8], Host=[localhost:13598], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://service.raysvalve.com/"><arg0>Jet：</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2020-07-01 15:26:10  [ qtp1898325501-19:25860 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://service.raysvalve.com/"><return>Jet：欧菲石油设备有限公司</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------
+2020-07-04 15:20:37  [ main:0 ] - [ WARN ]  No resource methods have been found for resource class com.raysvalve.service.Impl.UserServiceImpl
+2020-07-04 15:20:37  [ main:27 ] - [ ERROR ]  No resource classes found
+2020-07-04 15:26:10  [ main:0 ] - [ WARN ]  No resource methods have been found for resource class com.raysvalve.service.UserServiceImpl
+2020-07-04 15:26:10  [ main:30 ] - [ ERROR ]  No resource classes found
+2020-07-04 15:34:44  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 15:34:45  [ main:134 ] - [ INFO ]  Logging initialized @1962ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 15:34:45  [ main:312 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 15:34:46  [ main:1214 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 15:34:46  [ main:1215 ] - [ INFO ]  Started @3049ms
+2020-07-04 15:34:46  [ main:1263 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@6b4a4e18{/ws,null,AVAILABLE}
+2020-07-04 15:35:09  [ qtp508198356-20:24796 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:35:09  [ qtp508198356-20:24894 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:35:09 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:35:43  [ qtp508198356-18:59040 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:35:43  [ qtp508198356-18:59047 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:35:43 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:35:52  [ qtp508198356-16:68109 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/User
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:35:52  [ qtp508198356-16:68111 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:35:52 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:37:04  [ qtp508198356-24:139348 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/User?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:37:04  [ qtp508198356-24:139351 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:37:04 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:38:29  [ qtp508198356-15:224143 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:38:29  [ qtp508198356-15:224147 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:38:29 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:39:04  [ qtp508198356-16:259460 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/userService
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:39:04  [ qtp508198356-16:259467 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Sat, 04 Jul 2020 07:39:04 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:40:05  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 15:40:05  [ main:136 ] - [ INFO ]  Logging initialized @1839ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 15:40:05  [ main:263 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 15:40:06  [ main:972 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 15:40:06  [ main:973 ] - [ INFO ]  Started @2679ms
+2020-07-04 15:40:06  [ main:1028 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@6b4a4e18{/ws,null,AVAILABLE}
+2020-07-04 15:40:11  [ qtp508198356-20:5511 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[cross-site], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:40:11  [ qtp508198356-20:5672 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Sat, 04 Jul 2020 07:40:11 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:40:16  [ qtp508198356-18:10811 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:40:16  [ qtp508198356-18:10822 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:40:16 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:40:24  [ qtp508198356-17:19253 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[cross-site], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:40:24  [ qtp508198356-17:19257 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 07:40:24 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:41:21  [ qtp508198356-17:76052 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/userService?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:41:21  [ qtp508198356-17:76054 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Sat, 04 Jul 2020 07:41:21 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:45:56  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 15:45:56  [ main:161 ] - [ INFO ]  Logging initialized @1751ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 15:45:56  [ main:327 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 15:45:57  [ main:1114 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 15:45:57  [ main:1115 ] - [ INFO ]  Started @2710ms
+2020-07-04 15:45:57  [ main:1164 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@6b4a4e18{/ws,null,AVAILABLE}
+2020-07-04 15:46:03  [ qtp508198356-19:6702 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:46:03  [ qtp508198356-19:6799 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:46:03 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users></Users>
+--------------------------------------
+2020-07-04 15:46:17  [ qtp508198356-17:20706 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:46:17  [ qtp508198356-17:20710 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:46:17 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users></Users>
+--------------------------------------
+2020-07-04 15:46:54  [ qtp508198356-17:58266 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/userService/user/1?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:46:55  [ qtp508198356-17:58712 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:46:54 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>山西</city><id>1</id><username>小丽</username></User>
+--------------------------------------
+2020-07-04 15:47:19  [ qtp508198356-17:83138 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:47:19  [ qtp508198356-17:83144 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:47:19 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users></Users>
+--------------------------------------
+2020-07-04 15:48:08  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 15:48:08  [ main:169 ] - [ INFO ]  Logging initialized @1724ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 15:48:08  [ main:312 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 15:48:09  [ main:1072 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 15:48:09  [ main:1072 ] - [ INFO ]  Started @2633ms
+2020-07-04 15:48:09  [ main:1168 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@27c86f2d{/ws,null,AVAILABLE}
+2020-07-04 15:48:34  [ qtp1330754528-19:26054 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:48:34  [ qtp1330754528-19:26149 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:48:34 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users></Users>
+--------------------------------------
+2020-07-04 15:49:36  [ qtp1330754528-17:88076 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user/2
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:49:36  [ qtp1330754528-17:88081 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 204
+Content-Type: application/xml
+Headers: {Date=[Sat, 04 Jul 2020 07:49:36 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:49:45  [ qtp1330754528-17:96965 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:49:45  [ qtp1330754528-17:97246 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:49:45 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>山西</city><id>1</id><username>小丽</username></User>
+--------------------------------------
+2020-07-04 15:49:51  [ qtp1330754528-17:103325 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/userService/user/2
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:49:51  [ qtp1330754528-17:103328 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 204
+Content-Type: application/xml
+Headers: {Date=[Sat, 04 Jul 2020 07:49:51 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:50:10  [ qtp1330754528-17:122318 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/userService/user/101
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:50:10  [ qtp1330754528-17:122328 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 204
+Content-Type: application/xml
+Headers: {Date=[Sat, 04 Jul 2020 07:50:10 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 15:50:50  [ qtp1330754528-19:162748 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 15:50:50  [ qtp1330754528-19:162751 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 07:50:50 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users></Users>
+--------------------------------------
+2020-07-04 16:00:42  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 16:00:42  [ main:171 ] - [ INFO ]  Logging initialized @2828ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 16:00:42  [ main:378 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 16:00:43  [ main:1135 ] - [ INFO ]  Started ServerConnector@351d0846{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 16:00:43  [ main:1136 ] - [ INFO ]  Started @3799ms
+2020-07-04 16:00:43  [ main:1186 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@7ff95560{/ws,null,AVAILABLE}
+2020-07-04 16:00:51  [ qtp494586676-19:9359 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:00:51  [ qtp494586676-19:9709 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:00:51 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:04:45  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 16:04:45  [ main:161 ] - [ INFO ]  Logging initialized @1941ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 16:04:45  [ main:296 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 16:04:46  [ main:1182 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 16:04:46  [ main:1183 ] - [ INFO ]  Started @2968ms
+2020-07-04 16:04:46  [ main:1219 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@6b4a4e18{/ws,null,AVAILABLE}
+2020-07-04 16:04:57  [ qtp508198356-19:11863 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:04:57  [ qtp508198356-19:12291 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:04:57 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:06:18  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 16:06:18  [ main:109 ] - [ INFO ]  Logging initialized @1469ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 16:06:18  [ main:243 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 16:06:19  [ main:892 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 16:06:19  [ main:893 ] - [ INFO ]  Started @2256ms
+2020-07-04 16:06:19  [ main:973 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@402e37bc{/ws,null,AVAILABLE}
+2020-07-04 16:06:26  [ qtp1330754528-20:7598 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:06:26  [ qtp1330754528-20:8036 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:06:26 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:09:49  [ qtp1330754528-15:210882 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:09:49  [ qtp1330754528-15:210886 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:09:49 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:09:57  [ qtp1330754528-14:218696 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:09:57  [ qtp1330754528-14:218704 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:09:57 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:10:02  [ qtp1330754528-15:223458 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:10:02  [ qtp1330754528-15:223461 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:10:02 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:11:10  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 16:11:10  [ main:144 ] - [ INFO ]  Logging initialized @1670ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 16:11:10  [ main:271 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 16:11:11  [ main:929 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 16:11:11  [ main:930 ] - [ INFO ]  Started @2459ms
+2020-07-04 16:11:11  [ main:1015 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@1d76aeea{/ws,null,AVAILABLE}
+2020-07-04 16:11:14  [ qtp1330754528-19:4339 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:11:15  [ qtp1330754528-19:4908 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:11:14 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:11:20  [ qtp1330754528-18:9898 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:11:20  [ qtp1330754528-18:9915 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:11:20 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:15:18  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 16:15:19  [ main:188 ] - [ INFO ]  Logging initialized @2176ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 16:15:19  [ main:466 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 16:15:20  [ main:1435 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 16:15:20  [ main:1436 ] - [ INFO ]  Started @3431ms
+2020-07-04 16:15:20  [ main:1482 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@78b729e6{/ws,null,AVAILABLE}
+2020-07-04 16:15:23  [ qtp508198356-19:4156 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:15:23  [ qtp508198356-19:4553 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:15:23 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><city>温州</city><id>1</id><username>小妹</username></User><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:15:55  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 16:15:55  [ main:164 ] - [ INFO ]  Logging initialized @1618ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 16:15:55  [ main:277 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 16:15:56  [ main:943 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 16:15:56  [ main:945 ] - [ INFO ]  Started @2402ms
+2020-07-04 16:15:56  [ main:1032 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@6b4a4e18{/ws,null,AVAILABLE}
+2020-07-04 16:16:01  [ qtp1330754528-20:6557 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user?wsdl
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9], accept-encoding=[gzip, deflate, br], Accept-Language=[zh-CN,zh;q=0.9], Cache-Control=[max-age=0], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Sec-Fetch-Dest=[document], Sec-Fetch-Mode=[navigate], Sec-Fetch-Site=[none], Sec-Fetch-User=[?1], Upgrade-Insecure-Requests=[1], User-Agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36]}
+--------------------------------------
+2020-07-04 16:16:02  [ qtp1330754528-20:6919 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:16:01 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8"?><Users><User><cars><carName>劳斯莱斯</carName><id>101</id><price>1.0E7</price></cars><cars><carName>保时捷</carName><id>102</id><price>1000000.0</price></cars><city>温州</city><id>1</id><username>小妹</username></User><User><city>上海</city><id>2</id><username>小米</username></User></Users>
+--------------------------------------
+2020-07-04 16:45:16  [ qtp1330754528-18:1760770 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[123], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>æ²³å</city><id>121</id><username>ç½</username></User>
+--------------------------------------
+2020-07-04 16:45:16  [ qtp1330754528-18:1760796 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 08:45:16 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 16:50:33  [ qtp1330754528-14:2078110 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 16:50:33  [ qtp1330754528-14:2078113 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 08:50:33 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 16:52:36  [ qtp1330754528-17:2201143 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 16:52:36  [ qtp1330754528-17:2201145 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 08:52:36 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 16:56:26  [ qtp1330754528-14:2431580 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/user/userService/user/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 16:56:26  [ qtp1330754528-14:2431584 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 08:56:26 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 16:57:08  [ qtp1330754528-18:2473245 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/userService/user/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 16:57:08  [ qtp1330754528-18:2473260 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 08:57:08 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>山西</city><id>1</id><username>小丽</username></User>
+--------------------------------------
+2020-07-04 16:57:32  [ qtp1330754528-17:2497398 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 16:57:32  [ qtp1330754528-17:2497401 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 16:57:32  [ qtp1330754528-17:2497403 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 7
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 08:57:32 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 16:58:51  [ qtp1330754528-14:2575789 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 16:58:51  [ qtp1330754528-14:2575792 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 16:58:51  [ qtp1330754528-14:2575794 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 8
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 08:58:51 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:00:33  [ main:1 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 17:00:33  [ main:221 ] - [ INFO ]  Logging initialized @1750ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 17:00:33  [ main:478 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 17:00:34  [ main:1353 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 17:00:34  [ main:1353 ] - [ INFO ]  Started @2902ms
+2020-07-04 17:00:34  [ main:1401 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@78b729e6{/ws,null,AVAILABLE}
+2020-07-04 17:00:46  [ qtp1330754528-18:13207 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:00:46  [ qtp1330754528-18:13367 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:00:46  [ qtp1330754528-18:13418 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:00:46 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:01:14  [ qtp1330754528-13:41323 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:01:14  [ qtp1330754528-13:41326 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:01:14 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:02:01  [ qtp1330754528-14:88964 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/userService/user/1
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:02:02  [ qtp1330754528-14:89361 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/xml
+Headers: {Content-Type=[application/xml], Date=[Sat, 04 Jul 2020 09:02:01 GMT]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>山西</city><id>1</id><username>小丽</username></User>
+--------------------------------------
+2020-07-04 17:03:40  [ qtp1330754528-13:187106 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:03:40  [ qtp1330754528-13:187108 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 406 Not Acceptable
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:03:40  [ qtp1330754528-13:187110 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 406
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:03:40 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:04:28  [ qtp1330754528-18:235692 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/user/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:04:28  [ qtp1330754528-18:235695 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:04:28 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:04:46  [ qtp1330754528-14:253500 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:04:46  [ qtp1330754528-14:253501 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 406 Not Acceptable
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:04:46  [ qtp1330754528-14:253503 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 406
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:04:46 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:05:43  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 17:05:43  [ main:108 ] - [ INFO ]  Logging initialized @1522ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 17:05:43  [ main:227 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 17:05:44  [ main:933 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 17:05:44  [ main:934 ] - [ INFO ]  Started @2352ms
+2020-07-04 17:05:44  [ main:999 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@78dd667e{/ws,null,AVAILABLE}
+2020-07-04 17:06:04  [ qtp1330754528-18:20718 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:06:04  [ qtp1330754528-18:20887 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:06:04  [ qtp1330754528-18:20897 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:06:04 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:09:30  [ qtp1330754528-20:227252 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:09:30  [ qtp1330754528-20:227257 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:09:30  [ qtp1330754528-20:227258 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:09:30 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:10:30  [ qtp1330754528-14:286896 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:10:30  [ qtp1330754528-14:286898 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:135)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:10:30  [ qtp1330754528-14:286899 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:10:30 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:10:55  [ qtp1330754528-18:311774 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:10:55  [ qtp1330754528-18:311779 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:10:55 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:11:27  [ qtp1330754528-20:344255 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:11:27  [ qtp1330754528-20:344258 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 406 Not Acceptable
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:11:27  [ qtp1330754528-20:344259 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 406
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:11:27 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:12:22  [ qtp1330754528-17:398613 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/user/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:12:22  [ qtp1330754528-17:398615 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:12:22 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:12:37  [ qtp1330754528-20:414309 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:12:37  [ qtp1330754528-20:414311 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 406 Not Acceptable
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:12:37  [ qtp1330754528-20:414313 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 7
+Response-Code: 406
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:12:37 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:14:05  [ qtp1330754528-14:502044 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:14:05  [ qtp1330754528-14:502046 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 406 Not Acceptable
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:14:05  [ qtp1330754528-14:502048 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 8
+Response-Code: 406
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:14:05 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:14:29  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 17:14:29  [ main:171 ] - [ INFO ]  Logging initialized @1946ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 17:14:30  [ main:348 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 17:14:30  [ main:1146 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 17:14:30  [ main:1146 ] - [ INFO ]  Started @2927ms
+2020-07-04 17:14:31  [ main:1235 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@27c86f2d{/ws,null,AVAILABLE}
+2020-07-04 17:14:42  [ qtp508198356-18:12526 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:14:42  [ qtp508198356-18:13190 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sat, 04 Jul 2020 09:14:42 GMT]}
+Payload: {"User":{"city":"山西","id":1,"username":"小丽"}}
+--------------------------------------
+2020-07-04 17:15:11  [ qtp508198356-13:41799 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:15:11  [ qtp508198356-13:41827 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:135)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:15:11  [ qtp508198356-13:41833 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:15:11 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:15:34  [ qtp508198356-19:64877 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:15:34  [ qtp508198356-19:64928 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 204
+Content-Type: */*
+Headers: {Date=[Sat, 04 Jul 2020 09:15:34 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:16:27  [ qtp508198356-18:117403 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:16:27  [ qtp508198356-18:117405 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:16:27  [ qtp508198356-18:117406 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:16:27 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:16:44  [ qtp508198356-19:134521 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-04 17:16:44  [ qtp508198356-19:134524 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Sat, 04 Jul 2020 09:16:44 GMT]}
+Payload: {"User":{"city":"山西","id":1,"username":"小丽"}}
+--------------------------------------
+2020-07-04 17:17:52  [ qtp508198356-14:203054 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:17:52  [ qtp508198356-14:203055 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:17:52  [ qtp508198356-14:203057 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:17:52 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:20:21  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-04 17:20:22  [ main:145 ] - [ INFO ]  Logging initialized @2107ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-04 17:20:22  [ main:322 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-04 17:20:22  [ main:1063 ] - [ INFO ]  Started ServerConnector@35fc6dc4{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-04 17:20:22  [ main:1064 ] - [ INFO ]  Started @3031ms
+2020-07-04 17:20:23  [ main:1118 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@501edcf1{/ws,null,AVAILABLE}
+2020-07-04 17:20:37  [ qtp508198356-15:15191 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:20:37  [ qtp508198356-15:15331 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:20:37  [ qtp508198356-15:15361 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:20:37 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:22:24  [ qtp508198356-19:122793 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:22:25  [ qtp508198356-19:123470 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 204
+Content-Type: */*
+Headers: {Date=[Sat, 04 Jul 2020 09:22:25 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:23:18  [ qtp508198356-18:176691 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:23:18  [ qtp508198356-18:176693 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 3
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:23:18 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:23:45  [ qtp508198356-15:203446 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8900/ws/user/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:23:45  [ qtp508198356-15:203449 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 4
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:23:45 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:24:34  [ qtp508198356-18:252689 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8900/ws/userService/user
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[51], content-type=[application/json], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: {"User":{"city":"henan","id":121,"username":"bai"}}
+--------------------------------------
+2020-07-04 17:24:34  [ qtp508198356-18:252694 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 5
+Response-Code: 204
+Content-Type: */*
+Headers: {Date=[Sat, 04 Jul 2020 09:24:34 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:24:54  [ qtp508198356-15:272865 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:24:54  [ qtp508198356-15:272867 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:24:54  [ qtp508198356-15:272869 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 6
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:24:54 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:30:43  [ qtp508198356-16:621755 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[application/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:30:43  [ qtp508198356-16:621858 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 7
+Response-Code: 204
+Content-Type: */*
+Headers: {Date=[Sat, 04 Jul 2020 09:30:43 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-04 17:31:09  [ qtp508198356-15:647086 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: text/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[text/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-04 17:31:09  [ qtp508198356-15:647088 ] - [ WARN ]  javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:168)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:516)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPDestination.doService(JettyHTTPDestination.java:247)
+	at org.apache.cxf.transport.http_jetty.JettyHTTPHandler.handle(JettyHTTPHandler.java:79)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1300)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1215)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:221)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-07-04 17:31:09  [ qtp508198356-15:647089 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 8
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Sat, 04 Jul 2020 09:31:09 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-06 14:53:59  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-06 14:53:59  [ main:144 ] - [ INFO ]  Logging initialized @2245ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-06 14:53:59  [ main:332 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-06 14:54:01  [ main:1740 ] - [ INFO ]  Started ServerConnector@7fe8ea47{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-06 14:54:01  [ main:1740 ] - [ INFO ]  Started @3847ms
+2020-07-06 14:54:01  [ main:1796 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@4b44655e{/ws,null,AVAILABLE}
+2020-07-06 14:54:27  [ qtp1330754528-18:27909 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[application/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-06 14:54:28  [ qtp1330754528-18:28825 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 204
+Content-Type: */*
+Headers: {Date=[Mon, 06 Jul 2020 06:54:28 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-06 15:35:18  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-07-06 15:35:18  [ localhost-startStop-1:156 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Jul 06 15:35:18 CST 2020]; root of context hierarchy
+2020-07-06 15:35:19  [ localhost-startStop-1:292 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-07-06 15:35:19  [ localhost-startStop-1:1135 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-07-06 15:35:20  [ localhost-startStop-1:1513 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1508 ms
+2020-07-06 15:37:59  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-07-06 15:38:00  [ localhost-startStop-1:167 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Jul 06 15:38:00 CST 2020]; root of context hierarchy
+2020-07-06 15:38:00  [ localhost-startStop-1:236 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-07-06 15:38:01  [ localhost-startStop-1:1349 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-07-06 15:38:01  [ localhost-startStop-1:1661 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1656 ms
+2020-07-06 15:38:25  [ http-bio-13598-exec-1:25863 ] - [ WARN ]  Can't find the request for http://localhost:13598/ws/hello's Observer 
+2020-07-06 15:38:36  [ http-bio-13598-exec-5:36667 ] - [ WARN ]  Can't find the request for http://localhost:13598/ws/hello's Observer 
+2020-07-06 15:41:26  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-07-06 15:41:26  [ localhost-startStop-1:163 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Jul 06 15:41:26 CST 2020]; root of context hierarchy
+2020-07-06 15:41:26  [ localhost-startStop-1:233 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-07-06 15:41:27  [ localhost-startStop-1:1589 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-07-06 15:41:28  [ localhost-startStop-1:2010 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1995 ms
+2020-07-06 16:11:32  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-07-06 16:11:32  [ localhost-startStop-1:277 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Jul 06 16:11:32 CST 2020]; root of context hierarchy
+2020-07-06 16:11:32  [ localhost-startStop-1:359 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-07-06 16:11:33  [ localhost-startStop-1:1434 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-07-06 16:11:34  [ localhost-startStop-1:1718 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1711 ms
+2020-07-06 16:11:55  [ http-bio-13598-exec-2:22944 ] - [ WARN ]  Can't find the request for http://localhost:13598/ws/hello's Observer 
+2020-07-20 15:02:54  [ main:1 ] - [ WARN ]  Interceptor for {http://localhost:8900/ws/userService/user}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:67)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:701)
+	at org.apache.cxf.jaxrs.client.WebClient.doChainedInvocation(WebClient.java:1086)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:932)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:901)
+	at org.apache.cxf.jaxrs.client.WebClient.invoke(WebClient.java:364)
+	at org.apache.cxf.jaxrs.client.WebClient.post(WebClient.java:373)
+	at com.raysvalve.Client.testSave(Client.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8900/ws/userService/user: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1400)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1384)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.close(AbstractWrappedOutputStream.java:77)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:671)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:63)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1340)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1315)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.setupWrappedStream(URLConnectionHTTPConduit.java:274)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleHeadersTrustCaching(HTTPConduit.java:1343)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.onFirstWrite(HTTPConduit.java:1304)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.onFirstWrite(URLConnectionHTTPConduit.java:307)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:47)
+	at org.apache.cxf.io.AbstractThresholdOutputStream.write(AbstractThresholdOutputStream.java:69)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1356)
+	... 34 more
+2020-07-20 15:02:57  [ main:2088 ] - [ WARN ]  Interceptor for {http://localhost:8900/ws/userService/user/1}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:67)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:701)
+	at org.apache.cxf.jaxrs.client.WebClient.doChainedInvocation(WebClient.java:1086)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:932)
+	at org.apache.cxf.jaxrs.client.WebClient.doInvoke(WebClient.java:901)
+	at org.apache.cxf.jaxrs.client.WebClient.invoke(WebClient.java:461)
+	at org.apache.cxf.jaxrs.client.WebClient.get(WebClient.java:641)
+	at com.raysvalve.Client.testType(Client.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: java.net.ConnectException: ConnectException invoking http://localhost:8900/ws/userService/user/1: Connection refused: connect
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1400)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1384)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.close(AbstractWrappedOutputStream.java:77)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:671)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:63)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1226)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1205)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1056)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:990)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream$2.run(URLConnectionHTTPConduit.java:377)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream$2.run(URLConnectionHTTPConduit.java:373)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.getResponseCode(URLConnectionHTTPConduit.java:373)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.doProcessResponseCode(HTTPConduit.java:1597)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponseInternal(HTTPConduit.java:1625)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponse(HTTPConduit.java:1570)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1371)
+	... 34 more
+2020-07-20 15:03:17  [ main:0 ] - [ INFO ]  Setting the server's publish address to be http://localhost:8900/ws/
+2020-07-20 15:03:17  [ main:183 ] - [ INFO ]  Logging initialized @2134ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-20 15:03:18  [ main:390 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-07-20 15:03:20  [ main:2468 ] - [ INFO ]  Started ServerConnector@c8e4bb0{HTTP/1.1, (http/1.1)}{localhost:8900}
+2020-07-20 15:03:20  [ main:2469 ] - [ INFO ]  Started @4424ms
+2020-07-20 15:03:20  [ main:2512 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@23986957{/ws,null,AVAILABLE}
+2020-07-20 15:03:29  [ qtp1991313236-18:11979 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8900/ws/userService/user
+Encoding: ISO-8859-1
+Http-Method: POST
+Content-Type: application/xml
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[122], content-type=[application/xml], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><User><city>henan</city><id>121</id><username>bai</username></User>
+--------------------------------------
+2020-07-20 15:03:30  [ qtp1991313236-18:12655 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 204
+Content-Type: */*
+Headers: {Date=[Mon, 20 Jul 2020 07:03:30 GMT], Content-Length=[0]}
+--------------------------------------
+2020-07-20 15:03:30  [ qtp1991313236-14:12716 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8900/ws/userService/user/1
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json], Cache-Control=[no-cache], connection=[keep-alive], Content-Type=[null], Host=[localhost:8900], Pragma=[no-cache], User-Agent=[Apache-CXF/3.3.6]}
+--------------------------------------
+2020-07-20 15:03:30  [ qtp1991313236-14:12801 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 20 Jul 2020 07:03:30 GMT]}
+Payload: {"User":{"city":"山西","id":1,"username":"小丽"}}
+--------------------------------------
+2020-09-25 15:35:30  [ main:0 ] - [ INFO ]  Creating Service {http://impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2020-09-25 15:35:31  [ main:971 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2020-09-25 15:35:31  [ main:995 ] - [ INFO ]  Logging initialized @2678ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-09-25 15:35:31  [ main:1115 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2020-09-25 15:35:33  [ main:2889 ] - [ INFO ]  Started ServerConnector@4007f65e{HTTP/1.1, (http/1.1)}{localhost:13598}
+2020-09-25 15:35:33  [ main:2889 ] - [ INFO ]  Started @4572ms
+2020-09-25 15:35:33  [ main:2925 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@503f91c3{/ws,null,AVAILABLE}
+2020-10-17 15:49:26  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-10-17 15:49:28  [ localhost-startStop-1:1743 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-10-17 15:49:28  [ localhost-startStop-1:2124 ] - [ INFO ]  Root WebApplicationContext initialized in 2120 ms
+2020-11-02 17:26:46  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-11-02 17:26:47  [ localhost-startStop-1:1436 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-11-02 17:26:47  [ localhost-startStop-1:1800 ] - [ INFO ]  Root WebApplicationContext initialized in 1794 ms
+2020-11-19 17:31:47  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2020-11-19 17:31:49  [ localhost-startStop-1:2345 ] - [ INFO ]  Setting the server's publish address to be /userService
+2020-11-19 17:31:49  [ localhost-startStop-1:2788 ] - [ INFO ]  Root WebApplicationContext initialized in 2761 ms

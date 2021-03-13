@@ -1,0 +1,2 @@
+127.0.0.1 - - [17/Oct/2020:15:50:11 +0800] "POST /ws/userService/userService/user HTTP/1.1" 204 - http-bio-13598-exec-1 1189
+127.0.0.1 - - [17/Oct/2020:15:50:12 +0800] "GET /ws/userService/userService/user/1 HTTP/1.1" 200 64 http-bio-13598-exec-2 145

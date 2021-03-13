@@ -1,0 +1,4 @@
+127.0.0.1 - - [02/Nov/2020:17:27:25 +0800] "POST /ws/userService/userService/user HTTP/1.1" 204 - http-bio-13598-exec-1 748
+127.0.0.1 - - [02/Nov/2020:17:27:42 +0800] "GET /ws/userService/userService/user/1 HTTP/1.1" 200 64 http-bio-13598-exec-3 104
+0:0:0:0:0:0:0:1 - - [02/Nov/2020:17:28:02 +0800] "GET /ws/userService/userService/user HTTP/1.1" 200 344 http-bio-13598-exec-6 22
+0:0:0:0:0:0:0:1 - - [02/Nov/2020:17:28:02 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-13598-exec-7 7
