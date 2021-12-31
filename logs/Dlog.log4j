@@ -2105,3 +2105,30 @@ Payload: {"User":{"city":"山西","id":1,"username":"小丽"}}
 2020-11-19 17:31:47  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
 2020-11-19 17:31:49  [ localhost-startStop-1:2345 ] - [ INFO ]  Setting the server's publish address to be /userService
 2020-11-19 17:31:49  [ localhost-startStop-1:2788 ] - [ INFO ]  Root WebApplicationContext initialized in 2761 ms
+2021-08-05 13:55:00  [ main:0 ] - [ INFO ]  Creating Service {http://impl.service.raysvalve.com/}HelloServiceImplService from class com.raysvalve.service.HelloService
+2021-08-05 13:55:03  [ main:2870 ] - [ INFO ]  Setting the server's publish address to be http://localhost:13598/ws/hello
+2021-08-05 13:55:03  [ main:2954 ] - [ INFO ]  Logging initialized @6753ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-08-05 13:55:03  [ main:3339 ] - [ INFO ]  jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_231-b11
+2021-08-05 13:55:07  [ main:7132 ] - [ INFO ]  Started ServerConnector@7d900ecf{HTTP/1.1, (http/1.1)}{localhost:13598}
+2021-08-05 13:55:07  [ main:7133 ] - [ INFO ]  Started @10940ms
+2021-08-05 13:55:07  [ main:7251 ] - [ INFO ]  Started o.e.j.s.h.ContextHandler@448c8166{/ws,null,AVAILABLE}
+2021-08-05 13:55:35  [ main:0 ] - [ INFO ]  Creating Service {http://service.raysvalve.com/}HelloServiceService from class com.raysvalve.service.HelloService
+2021-08-05 13:55:42  [ qtp2130192211-19:41786 ] - [ INFO ]  Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:13598/ws/hello
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: text/xml; charset=UTF-8
+Headers: {Accept=[*/*], Cache-Control=[no-cache], connection=[keep-alive], Content-Length=[199], content-type=[text/xml; charset=UTF-8], Host=[localhost:13598], Pragma=[no-cache], SOAPAction=[""], User-Agent=[Apache-CXF/3.3.6]}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHello xmlns:ns2="http://service.raysvalve.com/"><arg0>Jet：</arg0></ns2:sayHello></soap:Body></soap:Envelope>
+--------------------------------------
+2021-08-05 13:55:43  [ qtp2130192211-19:42692 ] - [ INFO ]  Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Encoding: UTF-8
+Content-Type: text/xml
+Headers: {}
+Payload: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:sayHelloResponse xmlns:ns2="http://service.raysvalve.com/"><return>Jet：欧菲石油设备有限公司</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+--------------------------------------
